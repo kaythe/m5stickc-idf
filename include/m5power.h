@@ -18,7 +18,7 @@ extern "C" {
 #include "freertos/FreeRTOS.h"
 #include "driver/i2c.h"
 
-#include "util/axp192_reg.h"
+#include "axp192_reg.h"
 
 #define AXP192_I2C_ADDR 0x34
 #define I2C_SDA_GPIO ((gpio_num_t) 21)    /*!< SDA pin of I²C bus */

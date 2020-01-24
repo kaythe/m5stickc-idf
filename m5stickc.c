@@ -5,6 +5,7 @@
  * This code is licensed under the MIT License.
  */
 
+#include "driver/gpio.h"
 #include "m5stickc.h"
 
 static const char *TAG = "m5stickc";

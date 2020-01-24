@@ -14,9 +14,9 @@ extern "C" {
 
 #include "esp_system.h"
 #include "esp_log.h"
-#include "util/spi_master_lobo.h"
-#include "util/tftspi.h"
-#include "util/tft.h"
+#include "spi_master_lobo.h"
+#include "tftspi.h"
+#include "tft.h"
 #include "m5power.h"
 #include "m5button.h"
 #include "m5event.h"
